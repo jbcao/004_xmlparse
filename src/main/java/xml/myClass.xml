@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="my.css" type="text/css" ?>
+<class>
+    <stu id="1">
+        <name>曹建邦</name>
+        <sex>男</sex>
+        <age>20</age>
+        <介绍><![CDATA[这个是好$$128qw8o8<Lk;>;akdf0sa98u329408]]></介绍>
+    </stu>
+</class>

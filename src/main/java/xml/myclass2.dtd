@@ -1,0 +1,15 @@
+<!ENTITY % shiti "名字">
+        <!ELEMENT 班级 (学生+)>
+        <!ELEMENT 学生 (名字+,年龄,介绍)>
+        <!ATTLIST 学生
+                座位 CDATA #REQUIRED
+                学号 ID #REQUIRED
+                大哥  IDREF #IMPLIED
+                性别 (男|女) #REQUIRED
+                班主任 CDATA #FIXED "王亮"
+                年龄 CDATA  "10"
+                >
+        <!ELEMENT %shiti; (#PCDATA)>
+        <!ELEMENT 年龄 ANY>
+        <!ELEMENT 介绍 (#PCDATA)>
+        <!ENTITY mycopy "hello">

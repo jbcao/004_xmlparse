@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+
+    </body>
+</html>
+<script language="JavaScript" type="text/javascript">
+    var xmldoc = new ActiveXObject("Microsoft.XMLDOM");
+    xmldoc.validateOnParse = "true";
+    xmldoc.load("myclass2.xml");
+    document.writeln(xmldoc.parseError.reason + "<br>");
+    document.writeln(xmldoc.parseError.line);
+</script>
